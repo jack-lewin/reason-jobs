@@ -1,0 +1,28 @@
+{
+  "name": "reason-jobs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@glennsl/bs-json": "^2.0.0",
+    "braintree-web-drop-in": "^1.11.0",
+    "bs-css": "^6.7.0",
+    "bs-fetch": "^0.3.0",
+    "bs-react-ga": "0.0.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "reason-scripts": "0.8.0",
+    "serve": "^8.1.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "npm link bs-platform",
+    "start": "serve -s build"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.3.2",
+    "reason-react": "^0.3.4"
+  }
+}
